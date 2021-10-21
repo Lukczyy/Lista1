@@ -1,5 +1,6 @@
 public class Romb extends Czworokat{
-    double a,kat;
+    double a;
+    double kat;
     @Override
     public double ObliczPole() {
         return a*a*Math.sin(kat);

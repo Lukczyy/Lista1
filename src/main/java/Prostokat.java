@@ -1,5 +1,6 @@
 public class Prostokat extends Czworokat{
-    double a,b;
+    double a;
+    double b;
     @Override
     public double ObliczPole() {
         return a*b;
