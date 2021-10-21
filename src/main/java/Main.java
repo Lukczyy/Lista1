@@ -47,10 +47,10 @@ public class Main {
                         break;
                     case 's':
                         try {
-                            s.a=Double.parseDouble(args[indeks]);
-                            if(s.a<0) throw new MyException("promien nie moze byc ujemny");
-                            System.out.println("Pole: "+s.ObliczPole());
-                            System.out.println("Obwod: "+s.ObliczObwod());
+                            s.a = Double.parseDouble(args[indeks]);
+                            if(s.a < 0) throw new MyException("promien nie moze byc ujemny");
+                            System.out.println("Pole: " + s.ObliczPole());
+                            System.out.println("Obwod: " + s.ObliczObwod());
                             indeks++;
                         } catch (NumberFormatException e) {
                             System.out.println("bledne dane");
@@ -62,11 +62,11 @@ public class Main {
                         break;
                     case 'c':
                         try {
-                            b1=Double.parseDouble(args[indeks]);
-                            b2=Double.parseDouble(args[indeks+1]);
-                            b3=Double.parseDouble(args[indeks+2]);
-                            b4=Double.parseDouble(args[indeks+3]);
-                            kat=Double.parseDouble(args[indeks+4]);
+                            b1 = Double.parseDouble(args[indeks]);
+                            b2 = Double.parseDouble(args[indeks+1]);
+                            b3 = Double.parseDouble(args[indeks+2]);
+                            b4 = Double.parseDouble(args[indeks+3]);
+                            kat = Double.parseDouble(args[indeks+4]);
                             if(b1<0||b2<0||b3<0||b4<0||kat<0||kat>180) throw new MyException("bledne dane");
                             if(b1==b2&&b2==b3&&b3==b4) {
                                 if(kat == 90) {
