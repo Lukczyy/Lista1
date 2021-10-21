@@ -1,2 +1,1 @@
-public abstract class Figura implements Obliczenia{
-}
+public abstract class Figura implements Obliczenia{}

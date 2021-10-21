@@ -1,2 +1,2 @@
-public abstract class Czworokat extends Figura{
+public abstract class Czworokat extends Figura {
 }
