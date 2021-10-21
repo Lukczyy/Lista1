@@ -1,4 +1,4 @@
-public class Prostokat extends Czworokat{
+public class Prostokat extends Czworokat {
     double a;
     double b;
     @Override

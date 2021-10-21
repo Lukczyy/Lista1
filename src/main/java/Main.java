@@ -18,7 +18,7 @@ public class Main {
                     case 'k':
                         try {
                             k.r = Double.parseDouble(args[indeks]);
-                            if(k.r<0) throw new MyException("promien nie moze byc ujemny");
+                            if(k.r < 0) throw new MyException("promien nie moze byc ujemny");
                             System.out.println("Pole: " + k.ObliczPole());
                             System.out.println("Obwod: " + k.ObliczObwod());
                             indeks++;
@@ -33,7 +33,7 @@ public class Main {
                     case 'p':
                         try {
                             p.a = Double.parseDouble(args[indeks]);
-                            if(p.a<0) throw new MyException("bok nie moze byc ujemny");
+                            if(p.a < 0) throw new MyException("bok nie moze byc ujemny");
                             System.out.println("Pole: "+p.ObliczPole());
                             System.out.println("Obwod: "+p.ObliczObwod());
                             indeks++;
